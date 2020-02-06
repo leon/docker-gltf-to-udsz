@@ -1,0 +1,26 @@
+{
+  "name": "docker-gltf-to-udsz",
+  "version": "1.0.0",
+  "description": "convert from gltf to usdz using docker",
+  "main": "start.sh",
+  "scripts": {
+    "start": "./run.sh ./example/Duck.gltf",
+    "build":"./build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leon/docker-gltf-to-udsz.git"
+  },
+  "keywords": [
+    "docker",
+    "gltf",
+    "usdz",
+    "converter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leon/docker-gltf-to-udsz/issues"
+  },
+  "homepage": "https://github.com/leon/docker-gltf-to-udsz#readme"
+}
