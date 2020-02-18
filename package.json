@@ -1,10 +1,10 @@
 {
   "name": "docker-gltf-to-udsz",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "convert from gltf to usdz using docker",
   "main": "start.sh",
   "scripts": {
-    "start": "./run.sh ./example/Duck.gltf",
+    "start": "./run.sh ./example/Duck.glb",
     "build":"./build.sh"
   },
   "repository": {
