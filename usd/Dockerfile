@@ -1,9 +1,9 @@
-FROM python:2-slim-buster
+FROM python:3-slim-buster
 
 WORKDIR /usr/src/usd
 
 # Configuration
-ARG USD_RELEASE="19.11"
+ARG USD_RELEASE="20.11"
 ARG USD_INSTALL="/usr/local/usd"
 ENV PYTHONPATH="${PYTHONPATH}:${USD_INSTALL}/lib/python"
 ENV PATH="${PATH}:${USD_INSTALL}/bin"

@@ -3,8 +3,14 @@ FROM leon/usd:latest
 
 WORKDIR /usr/src/ufg
 
+# Add NASM
+RUN apt-get install nasm
+
+# Add PIL
+RUN pip install Pillow
+
 # Configuration
-ARG UFG_RELEASE="3bf441e0eb5b6cfbe487bbf1e2b42b7447c43d02"
+ARG UFG_RELEASE="6d288cce8b68744494a226574ae1d7ba6a9c46eb"
 ARG UFG_SRC="/usr/src/ufg"
 ARG UFG_INSTALL="/usr/local/ufg"
 ENV USD_DIR="/usr/local/usd"
