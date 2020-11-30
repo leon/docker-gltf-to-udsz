@@ -17,7 +17,7 @@ yarn start examples/exterior.glb
 Directly via the shellscript
 
 ```
-./start.sh examples/exterior.glb examples/exterior.usdz
+./start.sh examples/exterior.glb
 ```
 
 Using raw docker command
