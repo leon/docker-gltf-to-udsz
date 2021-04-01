@@ -5,6 +5,7 @@
   "main": "start.sh",
   "scripts": {
     "start": "./start.sh",
+    "batch": "./batch.sh",
     "build": "./build.sh"
   },
   "repository": {

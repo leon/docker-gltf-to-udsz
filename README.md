@@ -34,6 +34,18 @@ docker run \
 docker run --rm -v $(PWD):/usr/app leon/usd-from-gltf:latest examples/exterior.glb examples/exterior.usdz
 ```
 
+# Batch Run
+
+To be able to batch convert files, place all your glb files in a directory.
+then `cd` to that directory,
+now run the `batch.sh` file from that directory.
+it will pick up the directory that you started it from and convert all the .glb files to .usdz
+
+```
+cd examples
+../batch.sh
+```
+
 # Build
 
 ```
